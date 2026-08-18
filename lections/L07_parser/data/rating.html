@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рейтинг абитуриентов 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            width: 600px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead {
+            background: #2c3e50;
+            color: white;
+        }
+        th, td {
+            padding: 10px 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        tbody tr:hover {
+            background: #f0f4ff;
+        }
+        .surname {
+            font-weight: 500;
+            color: #1a1a2e;
+        }
+        .rating {
+            font-weight: bold;
+            color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Рейтинг абитуриентов 2025</h1>
+        <table id="table-rating">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Фамилия</th>
+                    <th>ЕГЭ по информатике</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class="surname">Иванов</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="surname">Петров</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="surname">Сидоров</td>
+                    <td>76</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td class="surname">Кузнецов</td>
+                    <td>91</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td class="surname">Михайлов</td>
+                    <td>67</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td class="surname">Смирнов</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td class="surname">Волков</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td class="surname">Алексеев</td>
+                    <td>97</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td class="surname">Лебедев</td>
+                    <td>63</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td class="surname">Егоров</td>
+                    <td>79</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td class="surname">Павлов</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td class="surname">Козлов</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td class="surname">Степанов</td>
+                    <td>58</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td class="surname">Николаев</td>
+                    <td>73</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td class="surname">Морозов</td>
+                    <td>84</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td class="surname">Новиков</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td class="surname">Фёдоров</td>
+                    <td>68</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td class="surname">Орлов</td>
+                    <td>78</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td class="surname">Захаров</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td class="surname">Крылов</td>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td class="surname">Григорьев</td>
+                    <td>87</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td class="surname">Соколов</td>
+                    <td>74</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td class="surname">Беляев</td>
+                    <td>62</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td class="surname">Макаров</td>
+                    <td>83</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td class="surname">Андреев</td>
+                    <td>71</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td class="surname">Дмитриев</td>
+                    <td>93</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td class="surname">Тихонов</td>
+                    <td>59</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td class="surname">Кононов</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td class="surname">Борисов</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td class="surname">Тимофеев</td>
+                    <td>86</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td class="surname">Гаврилов</td>
+                    <td>77</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td class="surname">Афанасьев</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td class="surname">Кудрявцев</td>
+                    <td>52</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td class="surname">Шестаков</td>
+                    <td>81</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td class="surname">Богданов</td>
+                    <td>64</td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td class="surname">Гусев</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td class="surname">Чернышёв</td>
+                    <td>89</td>
+                </tr>
+                <tr>
+                    <td>38</td>
+                    <td class="surname">Денисов</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td class="surname">Баранов</td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td class="surname">Поляков</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td class="surname">Голубев</td>
+                    <td>72</td>
+                </tr>
+                <tr>
+                    <td>42</td>
+                    <td class="surname">Третьяков</td>
+                    <td>84</td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td class="surname">Филиппов</td>
+                    <td>66</td>
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td class="surname">Киселёв</td>
+                    <td>91</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td class="surname">Белов</td>
+                    <td>57</td>
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td class="surname">Сорокин</td>
+                    <td>79</td>
+                </tr>
+                <tr>
+                    <td>47</td>
+                    <td class="surname">Калинин</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>48</td>
+                    <td class="surname">Фролов</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <td>49</td>
+                    <td class="surname">Саввин</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td class="surname">Ильин</td>
+                    <td>73</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: center; color: #7f8c8d; font-size: 12px; margin-top: 20px;">
+            * Рейтинг сформирован по результатам ЕГЭ по информатике
+        </p>
+    </div>
+</body>
+</html>
